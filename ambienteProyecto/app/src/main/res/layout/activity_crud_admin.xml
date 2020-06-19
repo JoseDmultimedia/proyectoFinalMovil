@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crudAdmin">
+
+    <Button
+        android:id="@+id/revisarTarros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="514dp"
+        android:onClick="revisarTar"
+        android:text="Revisar - Tarros" />
+
+    <Button
+        android:id="@+id/ingresarTarro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="132dp"
+        android:layout_y="438dp"
+        android:onClick="ingresarTar"
+        android:text="ingresar Tarro" />
+
+    <Button
+        android:id="@+id/revisarUsuarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="128dp"
+        android:layout_y="268dp"
+        android:onClick="revisarUse"
+        android:text="Revisar Usuarios" />
+
+    <Button
+        android:id="@+id/ingresarEP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="120dp"
+        android:layout_y="190dp"
+        android:text="ingresar Estu - Prof" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="122dp"
+        android:text="Control de Usuarios"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="353dp"
+        android:text="Control de Tarros"
+        android:textSize="24sp" />
+
+</AbsoluteLayout>

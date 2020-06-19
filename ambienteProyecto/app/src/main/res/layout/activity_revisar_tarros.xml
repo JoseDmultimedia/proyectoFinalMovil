@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".revisarTarros">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="39dp"
+        android:layout_y="46dp"
+        android:text="Buscar Tarros"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/wordT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="95dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <ImageButton
+        android:id="@+id/helpT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="299dp"
+        android:layout_y="89dp"
+        app:srcCompat="@android:drawable/ic_menu_help" />
+
+    <Button
+        android:id="@+id/buscarT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="152dp"
+        android:layout_y="160dp"
+        android:onClick="mostrarT"
+        android:text="buscar" />
+
+    <ListView
+        android:id="@+id/listaT"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="-2dp"
+        android:layout_y="222dp" />
+</AbsoluteLayout>
