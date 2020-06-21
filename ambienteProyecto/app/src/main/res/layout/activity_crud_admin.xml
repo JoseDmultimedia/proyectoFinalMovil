@@ -6,57 +6,109 @@
     android:layout_height="match_parent"
     tools:context=".crudAdmin">
 
-    <Button
-        android:id="@+id/revisarTarros"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="130dp"
-        android:layout_y="514dp"
-        android:onClick="revisarTar"
-        android:text="Revisar - Tarros" />
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="723dp"
+        android:layout_height="357dp"
+        android:layout_x="-91dp"
+        android:layout_y="-165dp"
+        app:srcCompat="@drawable/backuser" />
 
-    <Button
-        android:id="@+id/ingresarTarro"
+    <View
+        android:id="@+id/view"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="132dp"
-        android:layout_y="438dp"
-        android:onClick="ingresarTar"
-        android:text="ingresar Tarro" />
+        android:layout_height="40dp"
+        android:layout_x="1dp"
+        android:layout_y="398dp"
+        android:background="@android:color/holo_blue_light" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_x="-1dp"
+        android:layout_y="165dp"
+        android:background="@android:color/holo_blue_light" />
 
     <Button
         android:id="@+id/revisarUsuarios"
-        android:layout_width="wrap_content"
+        android:layout_width="146dp"
         android:layout_height="wrap_content"
-        android:layout_x="128dp"
-        android:layout_y="268dp"
+        android:layout_x="44dp"
+        android:layout_y="318dp"
+        android:background="@drawable/btn_uno"
         android:onClick="revisarUse"
-        android:text="Revisar Usuarios" />
+        android:text="Revisar Usuarios"
+        android:textColor="@drawable/txt_btn_uno" />
+
+    <Button
+        android:id="@+id/revisarTarros"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="541dp"
+        android:background="@drawable/btn_uno"
+        android:onClick="revisarTar"
+        android:text="Revisar - Tarros"
+        android:textColor="@drawable/txt_btn_uno" />
+
+    <Button
+        android:id="@+id/ingresarTarro"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_x="53dp"
+        android:layout_y="477dp"
+        android:background="@drawable/btn_uno"
+        android:onClick="ingresarTar"
+        android:text="ingresar Tarro"
+        android:textColor="@drawable/txt_btn_uno" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="403dp"
+        android:text="Control de Tarros"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/ingresarEP"
-        android:layout_width="wrap_content"
+        android:layout_width="189dp"
         android:layout_height="wrap_content"
-        android:layout_x="120dp"
-        android:layout_y="190dp"
-        android:text="ingresar Estu - Prof" />
+        android:layout_x="42dp"
+        android:layout_y="249dp"
+        android:background="@drawable/btn_uno"
+        android:text="ingresar Estu - Prof"
+        android:textColor="@drawable/txt_btn_uno" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="63dp"
-        android:layout_y="122dp"
+        android:layout_x="19dp"
+        android:layout_y="172dp"
+        android:textColor="@android:color/white"
         android:text="Control de Usuarios"
         android:textSize="24sp" />
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="100dp"
+        android:layout_height="205dp"
+        android:layout_x="152dp"
+        android:layout_y="-44dp"
+        app:srcCompat="@drawable/user" />
+
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="63dp"
-        android:layout_y="353dp"
-        android:text="Control de Tarros"
-        android:textSize="24sp" />
+        android:layout_x="134dp"
+        android:layout_y="124dp"
+        android:text="Welcome Admin"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
 
 </AbsoluteLayout>

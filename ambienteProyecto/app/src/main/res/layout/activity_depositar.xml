@@ -6,29 +6,46 @@
     android:layout_height="match_parent"
     tools:context=".depositar">
 
-    <Button
-        android:id="@+id/desechoIng"
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="723dp"
+        android:layout_height="357dp"
+        android:layout_x="-91dp"
+        android:layout_y="-165dp"
+        app:srcCompat="@drawable/backuser" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_x="37dp"
+        android:layout_y="101dp"
+        app:srcCompat="@drawable/trash" />
+
+    <EditText
+        android:id="@+id/idTarroPro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="236dp"
-        android:layout_y="421dp"
-        android:onClick="ingresarProd"
-        android:text="ingresar" />
+        android:layout_x="143dp"
+        android:layout_y="369dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="25dp"
-        android:layout_y="173dp"
-        android:text="Nombre Producto" />
+        android:layout_x="27dp"
+        android:layout_y="228dp"
+        android:text="Nombre Producto"
+        android:textColor="#000000" />
 
     <EditText
         android:id="@+id/nombrePro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="143dp"
-        android:layout_y="160dp"
+        android:layout_x="145dp"
+        android:layout_y="215dp"
         android:ems="10"
         android:inputType="textPersonName" />
 
@@ -36,16 +53,17 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="81dp"
-        android:layout_y="248dp"
-        android:text="Tipo" />
+        android:layout_x="83dp"
+        android:layout_y="303dp"
+        android:text="Tipo"
+        android:textColor="#000000" />
 
     <EditText
         android:id="@+id/tipoPro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="141dp"
-        android:layout_y="233dp"
+        android:layout_x="143dp"
+        android:layout_y="288dp"
         android:ems="10"
         android:inputType="textPersonName" />
 
@@ -53,24 +71,41 @@
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="45dp"
-        android:layout_y="326dp"
-        android:text="Id Del Tarro " />
+        android:layout_x="47dp"
+        android:layout_y="381dp"
+        android:text="Id Del Tarro "
+        android:textColor="#000000" />
 
-    <EditText
-        android:id="@+id/idTarroPro"
+    <Button
+        android:id="@+id/desechoIng"
+        android:background="@drawable/btn_uno"
+        android:textColor="@drawable/txt_btn_uno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="141dp"
-        android:layout_y="314dp"
-        android:ems="10"
-        android:inputType="textPersonName" />
+        android:layout_x="238dp"
+        android:layout_y="476dp"
+        android:onClick="ingresarProd"
+        android:text="ingresar" />
 
     <Button
         android:id="@+id/ingea"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="476dp"
+        android:background="@drawable/btn_uno"
+        android:text="Ingresar por QR"
+        android:textColor="@drawable/txt_btn_uno" />
+
+    <TextView
+        android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="65dp"
-        android:layout_y="421dp"
-        android:text="Ingresar por QR" />
+        android:layout_x="121dp"
+        android:layout_y="130dp"
+        android:text="Depositar Productos"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
 </AbsoluteLayout>

@@ -6,102 +6,129 @@
     android:layout_height="match_parent"
     tools:context=".ingresarTarros">
 
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="723dp"
+        android:layout_height="357dp"
+        android:layout_x="-91dp"
+        android:layout_y="-165dp"
+        app:srcCompat="@drawable/backuser" />
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="37dp"
-        android:layout_y="111dp"
+        android:layout_x="139dp"
+        android:layout_y="129dp"
         android:text="Ingresar Tarros"
+        android:textColor="#FFFFFF"
         android:textSize="24sp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="69dp"
         tools:layout_editor_absoluteY="105dp" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="62dp"
-        android:layout_y="190dp"
-        android:text="Id Tarro"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="216dp" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="64dp"
-        android:layout_y="253dp"
-        android:text="Tipo Tarro" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="64dp"
-        android:layout_y="323dp"
-        android:text="Latitud" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="64dp"
-        android:layout_y="395dp"
-        android:text="Longitud" />
-
-    <EditText
-        android:id="@+id/idTarro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="143dp"
-        android:layout_y="179dp"
-        android:ems="10"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/tipoTarro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_x="144dp"
-        android:layout_y="245dp"
-        android:ems="10"
-        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/lati"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="144dp"
-        android:layout_y="311dp"
+        android:layout_x="129dp"
+        android:layout_y="359dp"
         android:ems="10"
         android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/longi"
+    <TextView
+        android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="144dp"
-        android:layout_y="379dp"
+        android:layout_x="47dp"
+        android:layout_y="238dp"
+        android:text="Id Tarro"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <EditText
+        android:id="@+id/idTarro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="128dp"
+        android:layout_y="227dp"
         android:ems="10"
         android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="39dp"
+        android:layout_y="305dp"
+        android:text="Tipo Tarro"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/tipoTarro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="129dp"
+        android:layout_y="293dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="49dp"
+        android:layout_y="371dp"
+        android:text="Latitud"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="49dp"
+        android:layout_y="443dp"
+        android:text="Longitud"
+        android:textColor="#000000" />
 
     <Button
         android:id="@+id/button2"
+        android:background="@drawable/btn_uno"
+        android:textColor="@drawable/txt_btn_uno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="171dp"
-        android:layout_y="461dp"
+        android:layout_x="156dp"
+        android:layout_y="509dp"
         android:onClick="tarro"
         android:text="Ingresar" />
 
     <Button
         android:id="@+id/ubica"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_x="122dp"
+        android:layout_y="588dp"
+        android:background="@drawable/btn_uno"
+        android:onClick="irMapitaUwu"
+        android:text="Ver Tarro en Mapa"
+        android:textColor="@drawable/txt_btn_uno" />
+
+    <EditText
+        android:id="@+id/longi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="137dp"
-        android:layout_y="540dp"
-        android:onClick="irMapitaUwu"
-        android:text="Ver Tarro en Mapa" />
+        android:layout_x="129dp"
+        android:layout_y="427dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="99dp"
+        android:layout_height="77dp"
+        android:layout_x="34dp"
+        android:layout_y="101dp"
+        app:srcCompat="@drawable/trashcan" />
+
 </AbsoluteLayout>
