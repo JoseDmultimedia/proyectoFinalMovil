@@ -56,9 +56,9 @@
     <ListView
         android:id="@+id/listaT"
         android:layout_width="match_parent"
-        android:layout_height="625dp"
-        android:layout_x="-2dp"
-        android:layout_y="328dp" />
+        android:layout_height="396dp"
+        android:layout_x="1dp"
+        android:layout_y="333dp" />
 
     <ImageView
         android:id="@+id/imageView13"

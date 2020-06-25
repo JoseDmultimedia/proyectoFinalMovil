@@ -49,6 +49,7 @@ public class ingresarTarros extends AppCompatActivity {
         tar.setTipoTarro(val2);
         tar.setLatitud(val3);
         tar.setLongitud(val4);
+        tar.setId(id);
 
         myRef.child("tarro").child(id).setValue(tar);
 

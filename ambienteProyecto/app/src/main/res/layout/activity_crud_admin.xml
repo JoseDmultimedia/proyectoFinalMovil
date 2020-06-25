@@ -65,7 +65,7 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="196dp"
+        android:layout_width="322dp"
         android:layout_height="wrap_content"
         android:layout_x="19dp"
         android:layout_y="403dp"

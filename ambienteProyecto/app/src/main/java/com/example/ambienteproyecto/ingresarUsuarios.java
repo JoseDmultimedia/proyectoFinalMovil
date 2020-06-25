@@ -39,6 +39,7 @@ public class ingresarUsuarios extends AppCompatActivity {
     }
 
     public void ingresaloA (){
+
         String id = myRef.push().getKey();
         String val1 = name.getText().toString();
         String val2 = cargo.getText().toString();
@@ -52,6 +53,7 @@ public class ingresarUsuarios extends AppCompatActivity {
         alguien.setCargo(val2);
         alguien.setUsername(val3);
         alguien.setPassword(val4);
+        alguien.setId(id);
 
         myRef.child("user").child(id).setValue(alguien);
 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Oprations "
+        android:padding="10dp"/>
+
+            <EditText android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Enter id Tarro" android:id="@+id/updateIdTarro"/>
+
+            <EditText android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Enter Tipo Tarro" android:id="@+id/updateTipoTarro"/>
+
+            <EditText android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Enter Latitud" android:id="@+id/updateLatitud"/>
+
+            <EditText android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Enter Longitud" android:id="@+id/updateLongitud"/>
+
+            <LinearLayout android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <Button android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Delete"
+                    android:id="@+id/buttonDeleteTarr"
+                    android:layout_weight="1"/>
+
+                <Button android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Update"
+                    android:id="@+id/buttonUpdateTarr"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+</LinearLayout>

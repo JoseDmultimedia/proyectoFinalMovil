@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".dashboardStudiante">
 
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="435dp"
+        android:text="Donde depositar desecho"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
@@ -18,11 +28,22 @@
         android:id="@+id/button3"
         android:layout_width="212dp"
         android:layout_height="wrap_content"
-        android:layout_x="93dp"
-        android:layout_y="241dp"
+        android:layout_x="98dp"
+        android:layout_y="243dp"
         android:background="@drawable/btn_uno"
         android:onClick="verMapUwu"
         android:text="Revisar Ubicación Tarro"
+        android:textColor="@drawable/txt_btn_uno" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_x="122dp"
+        android:layout_y="337dp"
+        android:background="@drawable/btn_uno"
+        android:onClick="irDepositar"
+        android:text="Ingresar Desecho"
         android:textColor="@drawable/txt_btn_uno" />
 
     <ImageView
@@ -43,15 +64,32 @@
         android:textColor="#FFFFFF"
         android:textSize="18sp" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="157dp"
+    <EditText
+        android:id="@+id/tipoLocalizar"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="118dp"
-        android:layout_y="338dp"
+        android:layout_x="125dp"
+        android:layout_y="484dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="497dp"
+        android:text="tipo desecho"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/localizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="169dp"
+        android:layout_y="547dp"
         android:background="@drawable/btn_uno"
-        android:onClick="irDepositar"
-        android:text="Ingresar Desecho"
-        android:textColor="@drawable/txt_btn_uno" />
+        android:onClick="local"
+        android:text="Buscar" />
 
 </AbsoluteLayout>

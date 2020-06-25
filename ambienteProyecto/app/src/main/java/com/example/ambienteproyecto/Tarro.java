@@ -6,15 +6,17 @@ public class Tarro {
     private String tipoTarro;
     private String latitud;
     private String longitud;
+    private String id;
 
     public Tarro() {
     }
 
-    public Tarro(int idTarro, String tipoTarro, String latitud, String longitud) {
+    public Tarro(int idTarro, String tipoTarro, String latitud, String longitud, String id) {
         this.idTarro = idTarro;
         this.tipoTarro = tipoTarro;
         this.latitud = latitud;
         this.longitud = longitud;
+        this.id = id;
     }
 
     public int getIdTarro() {
@@ -47,6 +49,14 @@ public class Tarro {
 
     public void setLongitud(String longitud) {
         this.longitud = longitud;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     @Override

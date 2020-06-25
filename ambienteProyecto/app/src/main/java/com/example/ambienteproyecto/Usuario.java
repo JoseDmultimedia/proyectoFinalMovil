@@ -6,15 +6,17 @@ public class Usuario {
     private String cargo;
     private String password;
     private String username;
+    private String id;
 
     public Usuario() {
     }
 
-    public Usuario(String nombre, String cargo, String password, String username) {
+    public Usuario(String nombre, String cargo, String password, String username, String id) {
         this.nombre = nombre;
         this.cargo = cargo;
         this.password = password;
         this.username = username;
+        this.id = id;
     }
 
     public String getNombre() {
@@ -47,6 +49,14 @@ public class Usuario {
 
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     @Override
